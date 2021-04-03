@@ -25,7 +25,7 @@ requirements:
     - click
     - python >=3.6
     - pytz
-    - sqlalchemy >=1.0
+    - sqlalchemy >=1.0,<1.4
     - sqlalchemy-utils !=0.36.8
     - tzlocal
 
