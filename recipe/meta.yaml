@@ -1,5 +1,5 @@
 {% set name = "piecash" %}
-{% set version = "1.1.7" %}
+{% set version = "1.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/piecash-{{ version }}.tar.gz
-  sha256: 0c23192735133a71c2252ed59fd3bcc505e9d1941f23239795d6fede2bba5612
+  sha256: 89639f0661d492242783f39c8d147ea45c321dc4111f93eca2979f070f5f176d
 
 build:
   number: 0
