@@ -1,5 +1,5 @@
 {% set name = "piecash" %}
-{% set version = "1.2.1" %}
+{% set version = "1.3.0" %}
 
 
 package:
@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/piecash-{{ version }}.tar.gz
-  sha256: 7f9c5c7342df3b9cd1457adf4b82fea430f14fa93be17e52c7dd41c02abf7104
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/piecash-{{ version }}.tar.gz
+  sha256: 916c73481c6b0addd3771dd468497ef6989b383b28d064bdae61590552b98490
 
 build:
-  number: 2
+  number: 0
   noarch: python
   entry_points:
     - piecash = piecash.scripts.export:cli
